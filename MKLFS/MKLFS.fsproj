@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="EnumTypes.fs" />
+    <Compile Include="Blas.fs" />
+    <Compile Include="LinearAlgebra.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="intelmkl.redist.win-x64" Version="2021.2.0.296" />
+  </ItemGroup>
+
+</Project>
